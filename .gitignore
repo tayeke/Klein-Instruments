@@ -1,1 +1,3 @@
-/files/cache/*
+/files/*
+/packages/*
+/config/*
