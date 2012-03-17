@@ -1,0 +1,3 @@
+Responsive Starter Template with 1140 Grid System
+This is a blank starter template for developers who use both Concrete5 and the 1140 Responsive Grid System.
+

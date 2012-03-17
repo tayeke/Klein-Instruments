@@ -1,0 +1,7 @@
+//globals
+
+$(function(){
+	//init
+	
+});
+//functions
