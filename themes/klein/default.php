@@ -6,10 +6,10 @@ $this->inc('elements/header.php'); // get header file
    		<div class="span12">
         <?php  
             $a = new Area('Main');
-			$start = '<div class="clear">';
-      		$end = '</div>';
-      		$a->setBlockWrapperStart($start);
-      		$a->setBlockWrapperEnd($end);
+			      $start = '<div class="clear">';
+      		  $end = '</div>';
+      		  $a->setBlockWrapperStart($start);
+      		  $a->setBlockWrapperEnd($end);
             $a->display($c); // main editable region
         ?>
 	    </div> <!-- close main -->
