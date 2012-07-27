@@ -1706,7 +1706,7 @@ table .span12 {
   filter: alpha(opacity=40);
   cursor: pointer;
 }
-.btn {
+.btn, .ccm-input-button {
   display: inline-block;
   padding: 4px 10px 4px;
   margin-bottom: 0;
@@ -1740,20 +1740,20 @@ table .span12 {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   *margin-left: .3em;
 }
-.btn:hover,
+.btn:hover, .ccm-input-button:hover,
 .btn:active,
 .btn.active,
 .btn.disabled,
 .btn[disabled] {
   background-color: #e6e6e6;
 }
-.btn:active, .btn.active {
+.btn:active, .btn.active, .ccm-input-button:active {
   background-color: #cccccc \9;
 }
 .btn:first-child {
   *margin-left: 0;
 }
-.btn:hover {
+.btn:hover, .ccm-input-button:hover {
   color: #333333;
   text-decoration: none;
   background-color: #e6e6e6;
@@ -1764,7 +1764,7 @@ table .span12 {
   -o-transition: background-position 0.1s linear;
   transition: background-position 0.1s linear;
 }
-.btn:focus {
+.btn:focus, .ccm-input-button:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
